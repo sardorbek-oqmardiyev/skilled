@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: url(../img/girl.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 89px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1110px;
+  height: 56px;
+}
+body header img {
+  width: 111px;
+  height: 27px;
+}
+body header button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  cursor: pointer;
+  border: none;
+  border-radius: 28px;
+  width: 167px;
+  height: 56px;
+  background: #13183f;
+  color: #fff;
+}
+body header button:hover {
+  transition: 0.3s;
+  background: #666ca3;
+}
+body main {
+  flex-grow: 1;
+}
+body main .maxi_mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 89px;
+  padding-bottom: 125px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1110px;
+  height: 359px;
+}
+body main .maxi_mini .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 457px;
+  height: 359px;
+}
+body main .maxi_mini .text h1 {
+  font-weight: 800;
+  font-size: 56px;
+  color: #13183f;
+}
+body main .maxi_mini .text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  color: #83869a;
+}
+body main .maxi_mini .text a {
+  width: 167px;
+  height: 63px;
+}
+body main .maxi_mini .text a button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  cursor: pointer;
+  border: none;
+  border-radius: 31px;
+  width: 167px;
+  height: 63px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #fff;
+}
+body main .maxi_mini .text a button:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+body main .check_out {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 140px;
+  padding-top: 125px;
+  width: 100%;
+  height: 748px;
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+}
+body main .check_out .check_container {
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1110px;
+  height: 748px;
+}
+body main .check_out .check_container .check_box {
+  border-radius: 15px;
+  width: 350px;
+  height: 322px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+body main .check_out .check_container .check_box h2 {
+  margin: 64px 32px 138px 32px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  color: #fff;
+}
+body main .check_out .check_container .animation {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 350px;
+  height: 322px;
+  box-shadow: 0 25px 50px 0 rgba(6, 22, 141, 0.04);
+  background: #fff;
+}
+body main .check_out .check_container .animation .running {
+  transform: translate(30px, -30px);
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+body main .check_out .check_container .animation .running img {
+  padding: 18px;
+}
+body main .check_out .check_container .animation .learn {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 32px;
+  width: 286px;
+  height: 218px;
+}
+body main .check_out .check_container .animation .learn h3 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #13183f;
+}
+body main .check_out .check_container .animation .learn p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 156%;
+  color: #83869a;
+}
+body main .check_out .check_container .animation .learn h4 {
+  padding-bottom: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  color: #f74780;
+}
+body main .check_out .check_container .animation .learn h4:hover {
+  transition: 0.3s;
+  color: #ffa7c3;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background: #13183f;
+}
+body footer .footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1110px;
+  height: 120px;
+}
+body footer .footer_container img {
+  width: 111px;
+  height: 27px;
+}
+body footer .footer_container button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  cursor: pointer;
+  border: none;
+  border-radius: 28px;
+  width: 167px;
+  height: 56px;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  color: #fff;
+}
+body footer .footer_container button:hover {
+  transition: 0.3s;
+  background: #b16b95;
+}
+
+@media (max-width: 1160px) {
+  body {
+    background: url(../img/girl\ tablaet.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  body header {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 689px;
+    height: 48px;
+  }
+  body header img {
+    width: 89px;
+    height: 35px;
+  }
+  body header button {
+    font-size: 16px;
+    width: 140px;
+    height: 48px;
+  }
+  body main .maxi_mini {
+    margin: 0 auto;
+    max-width: 689px;
+    height: 284px;
+  }
+  body main .maxi_mini .text {
+    width: 398px;
+    height: 284px;
+  }
+  body main .maxi_mini .text h1 {
+    font-size: 40px;
+  }
+  body main .maxi_mini .text p {
+    font-size: 16px;
+  }
+  body main .maxi_mini .text button {
+    height: 56px;
+  }
+  body main .check_out {
+    width: 100%;
+    height: 913px;
+    padding-bottom: 250px;
+  }
+  body main .check_out .check_container {
+    row-gap: 80px;
+    width: 750px;
+    height: 913px;
+  }
+  body main .check_out .check_container .check_box {
+    width: 339px;
+    height: 259px;
+  }
+  body main .check_out .check_container .check_box h2 {
+    font-size: 24px;
+  }
+  body main .check_out .check_container .animation {
+    width: 339px;
+    height: 283px;
+  }
+  body footer .footer_container {
+    width: 689px;
+    height: 48px;
+  }
+  body footer .footer_container img {
+    width: 89px;
+    height: 35px;
+  }
+  body footer .footer_container button {
+    width: 140px;
+    height: 48px;
+  }
+}
+@media (max-width: 775px) {
+  body {
+    background: none;
+  }
+  body header {
+    padding-top: 16px;
+    padding-bottom: 38px;
+    max-width: 345px;
+    height: 48px;
+  }
+  body main .maxi_mini {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 343px;
+    height: 632px;
+    background: url(../img/girl\ media.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  body main .maxi_mini .text {
+    width: 343px;
+    height: 284px;
+  }
+  body main .check_out {
+    height: 1695px;
+  }
+  body main .check_out .check_container {
+    width: 343px;
+    height: 1695px;
+  }
+  body main .check_out .check_container .check_box {
+    width: 343px;
+    height: 120px;
+  }
+  body main .check_out .check_container .check_box h2 {
+    margin: 24px 29px 32px 28px;
+  }
+  body footer .footer_container {
+    width: 343px;
+    height: 48px;
+  }
+}/*# sourceMappingURL=style.css.map */

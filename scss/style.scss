@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: url(../img/girl.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 24px;
+    padding-bottom: 89px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1110px;
+    height: 56px;
+    img {
+      width: 111px;
+      height: 27px;
+    }
+    button {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 156%;
+      cursor: pointer;
+      border: none;
+      border-radius: 28px;
+      width: 167px;
+      height: 56px;
+      background: #13183f;
+      color: #fff;
+      &:hover {
+        transition: 0.3s;
+        background: #666ca3;
+      }
+    }
+  }
+  main {
+    flex-grow: 1;
+    .maxi_mini {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 89px;
+      padding-bottom: 125px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1110px;
+      height: 359px;
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 457px;
+        height: 359px;
+        h1 {
+          font-weight: 800;
+          font-size: 56px;
+          color: #13183f;
+        }
+        p {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 156%;
+          color: #83869a;
+        }
+        a {
+          width: 167px;
+          height: 63px;
+          button {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 156%;
+            cursor: pointer;
+            border: none;
+            border-radius: 31px;
+            width: 167px;
+            height: 63px;
+            background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+            color: #fff;
+            &:hover {
+              transition: 0.3s;
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+    .check_out {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 140px;
+      padding-top: 125px;
+      width: 100%;
+      height: 748px;
+      background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+      .check_container {
+        display: flex;
+        gap: 11px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 1110px;
+        height: 748px;
+        .check_box {
+          border-radius: 15px;
+          width: 350px;
+          height: 322px;
+          background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+          h2 {
+            margin: 64px 32px 138px 32px;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 125%;
+            color: #fff;
+          }
+        }
+        .animation {
+          display: flex;
+          flex-direction: column;
+          border-radius: 15px;
+          width: 350px;
+          height: 322px;
+          box-shadow: 0 25px 50px 0 rgba(6, 22, 141, 0.04);
+          background: #fff;
+          .running {
+            transform: translate(30px, -30px);
+            width: 56px;
+            height: 56px;
+            border-radius: 100%;
+            background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+            img {
+              padding: 18px;
+            }
+          }
+          .learn {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding-left: 32px;
+            width: 286px;
+            height: 218px;
+            h3 {
+              font-weight: 800;
+              font-size: 24px;
+              color: #13183f;
+            }
+            p {
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 156%;
+              color: #83869a;
+            }
+            h4 {
+              padding-bottom: 40px;
+              cursor: pointer;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 156%;
+              color: #f74780;
+              &:hover {
+                transition: 0.3s;
+                color: #ffa7c3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: #13183f;
+    .footer_container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 1110px;
+      height: 120px;
+      img {
+        width: 111px;
+        height: 27px;
+      }
+      button {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        cursor: pointer;
+        border: none;
+        border-radius: 28px;
+        width: 167px;
+        height: 56px;
+        background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+        color: #fff;
+        &:hover {
+          transition: 0.3s;
+          background: #b16b95;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1160px) {
+  body {
+    background: url(../img/girl\ tablaet.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    header {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 689px;
+      height: 48px;
+      img {
+        width: 89px;
+        height: 35px;
+      }
+      button {
+        font-size: 16px;
+        width: 140px;
+        height: 48px;
+      }
+    }
+    main {
+      .maxi_mini {
+        margin: 0 auto;
+        max-width: 689px;
+        height: 284px;
+        .text {
+          width: 398px;
+          height: 284px;
+          h1 {
+            font-size: 40px;
+          }
+          p {
+            font-size: 16px;
+          }
+          button {
+            height: 56px;
+          }
+        }
+      }
+      .check_out {
+        width: 100%;
+        height: 913px;
+        padding-bottom: 250px;
+        .check_container {
+          row-gap: 80px;
+          width: 750px;
+          height: 913px;
+          .check_box {
+            width: 339px;
+            height: 259px;
+            h2 {
+              font-size: 24px;
+            }
+          }
+          .animation {
+            width: 339px;
+            height: 283px;
+          }
+        }
+      }
+    }
+    footer {
+      .footer_container {
+        width: 689px;
+        height: 48px;
+        img {
+          width: 89px;
+          height: 35px;
+        }
+        button {
+          width: 140px;
+          height: 48px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 775px) {
+  body {
+    background: none;
+    header {
+      padding-top: 16px;
+      padding-bottom: 38px;
+      max-width: 345px;
+      height: 48px;
+    }
+    main {
+      .maxi_mini {
+        justify-content: flex-start;
+        width: 100%;
+        max-width: 343px;
+        height: 632px;
+        background: url(../img/girl\ media.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        .text {
+          width: 343px;
+          height: 284px;
+        }
+      }
+      .check_out {
+        height: 1695px;
+        .check_container {
+          width: 343px;
+          height: 1695px;
+          .check_box {
+            width: 343px;
+            height: 120px;
+            h2 {
+              margin: 24px 29px 32px 28px;
+            }
+          }
+        }
+      }
+    }
+    footer {
+      .footer_container {
+        width: 343px;
+        height: 48px;
+      }
+    }
+  }
+}
